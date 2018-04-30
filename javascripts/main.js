@@ -7,7 +7,7 @@ Oidc.Log.level = Oidc.Log.INFO;
 // OIDC Client Configuration
 //
 const OIDC_PROVIDER = 'https://loginqa.jemstep.com';
-const CLIENT_ID = '@!18AD.F291.96C6.D368!0001!BB5B.54AF!0008!03AD.B4BB.F9D1.F876';
+const CLIENT_ID = '@!18AD.F291.96C6.D368!0001!BB5B.54AF!0008!1491.DDB8.AD6E.597F';
 
 var settings = {
     authority: OIDC_PROVIDER,
