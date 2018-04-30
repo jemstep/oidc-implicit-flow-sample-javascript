@@ -15,7 +15,7 @@ var settings = {
     redirect_uri: window.location.protocol + "//" + window.location.host + window.location.pathname,
     response_type: 'id_token token',
     scope: 'openid profile email',
-    acr_values: 'auth_ldap_server',
+    acr_values: 'basic',
     filterProtocolClaims: true,
     loadUserInfo: true
 };
