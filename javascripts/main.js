@@ -14,7 +14,7 @@ var settings = {
     client_id: CLIENT_ID,
     redirect_uri: window.location.protocol + "//" + window.location.host + window.location.pathname,
     response_type: 'id_token token',
-    scope: 'openid profile email',
+    scope: 'openid profile email https://jemstep.com/auth/developer.documentation.readonly',
     acr_values: 'basic',
     filterProtocolClaims: true,
     loadUserInfo: true
