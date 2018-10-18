@@ -7,7 +7,6 @@ Oidc.Log.level = Oidc.Log.INFO;
 // OIDC Client Configuration
 //
 const OIDC_PROVIDER = 'https://loginqa.jemstep.com';
-// const CLIENT_ID = '@!18AD.F291.96C6.D368!0001!BB5B.54AF!0008!1491.DDB8.AD6E.597F';
 const CLIENT_ID = '@!B4A9.DAAA.54EB.4F62!0001!C15A.F1DA!0008!3685.367A.A48D.65F2';
 
 var settings = {
@@ -15,7 +14,7 @@ var settings = {
     client_id: CLIENT_ID,
     redirect_uri: window.location.protocol + "//" + window.location.host + window.location.pathname,
     response_type: 'id_token token',
-    scope: 'openid profile email https://jemstep.com/auth/developer.documentation.readonly',
+    scope: 'openid profile email https://jemstep.com/auth/dynamic.organizations',
     acr_values: 'basic',
     filterProtocolClaims: true,
     loadUserInfo: true
